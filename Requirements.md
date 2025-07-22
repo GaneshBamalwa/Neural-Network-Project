@@ -1,0 +1,11 @@
+### Summary of Required Skills:
+- Core Programming (C++/Python)
+- Stock Market Basics & Trading Concepts
+- APIs & Real-Time Data Handling
+- Machine Learning (Backtesting, Supervised Learning, Reinforcement Learning)
+- Data Visualization (Charts, Graphs, Candlestick Patterns)
+- Web or Desktop Development (Frontend + Backend for Web, or Qt for Desktop)
+- Optimization & Performance Tuning
+- Testing & Debugging
+- Documentation & Deployment
+- Version Control (Git/GitHub)
