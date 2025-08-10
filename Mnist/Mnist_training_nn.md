@@ -113,6 +113,27 @@ class Optimizer:
         self.iterations+=1 
 
 
+import pickle
+
+def save_model(filename, layers):
+    # layers is a list of your dense layer objects
+    params = []
+    for layer in layers:
+        params.append({
+            'weights': layer.weights,
+            'biases': layer.biases
+        })
+    with open(filename, 'wb') as f:
+        pickle.dump(params, f)
+
+def load_model(filename, layers):
+    with open(filename, 'rb') as f:
+        params = pickle.load(f)
+    for layer, param in zip(layers, params):
+        layer.weights = param['weights']
+        layer.biases = param['biases']
+
+
 
 
 '''              TRAINING                    '''
@@ -151,7 +172,6 @@ X_train = X_train[indices]
 Y_train = Y_train[indices]
 
 
-
 #### BATCHES GENERATION 
 
 def get_batches(X, Y, batch_size):
@@ -172,12 +192,12 @@ softmax_loss = softmaxCrossEntropy()
 accuracy = Accuracy()
 optimizer = Optimizer(learning_rate = 0.05 , decay = 1e-3, momentum=0.9)
 
-#### ACTUAL TRAINING 
-
-epochs = 100
+epochs = 10 
 batch_size = 32
 
+layers = [layer1, layer2, layer3]
 
+#### ACTUAL TESTING 
 for epoch in range(epochs):
     
     
@@ -228,6 +248,10 @@ for epoch in range(epochs):
     print(f"Epoch {epoch+1} — Loss: {epoch_loss:.4f}, Accuracy: {epoch_acc:.4f}")
 
 
+
+
+save_model('trained_model.pkl', layers)
+print("Model saved to 'trained_model.pkl'")
 
 
 ```
