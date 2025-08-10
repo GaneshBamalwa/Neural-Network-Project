@@ -2,6 +2,7 @@
 ```python
 import numpy as np 
 from mnist import MNIST
+from img_process import preprocess_image
 
 class denseLayer: 
     def __init__(self , input_size , numberOfNeurons):
@@ -192,6 +193,77 @@ softmax_loss = softmaxCrossEntropy()
 accuracy = Accuracy()
 optimizer = Optimizer(learning_rate = 0.05 , decay = 1e-3, momentum=0.9)
 
+
+layers = [layer1, layer2, layer3]
+
+# Load saved weights
+load_model('trained_model.pkl', layers)
+print("Model loaded!")
+
+custom_img = preprocess_image('4_digit.png')
+
+
+layer1.forward(custom_img)
+activation1.forward(layer1.output)
+layer2.forward(activation1.output)
+activation2.forward(layer2.output)
+layer3.forward(activation2.output)
+softmax_loss.activation.forward(layer3.output) 
+
+print("Output probabilities:", softmax_loss.activation.output)
+predicted_digit = np.argmax(softmax_loss.activation.output)
+print(f"Predicted digit: {predicted_digit}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
+test_loss = 0
+test_acc = 0
+test_batches = 0
+batch_size = 32
+
+for X_batch, Y_batch in get_batches(X_test, Y_test, batch_size):
+    layer1.forward(X_batch)
+    activation1.forward(layer1.output)
+
+    layer2.forward(activation1.output)
+    activation2.forward(layer2.output)
+
+    layer3.forward(activation2.output)
+
+    loss = softmax_loss.forward(layer3.output, Y_batch)
+    acc = accuracy.calculate(softmax_loss.output, Y_batch)
+
+    test_loss += loss
+    test_acc += acc
+    test_batches += 1
+
+test_loss /= test_batches
+test_acc /= test_batches
+
+print(f"Test Loss: {test_loss:.4f}, Test Accuracy: {test_acc:.4f}")
+
+
+
+
+'''
+
+
+'''
+
+
 epochs = 10 
 batch_size = 32
 
@@ -247,6 +319,12 @@ for epoch in range(epochs):
 
     print(f"Epoch {epoch+1} — Loss: {epoch_loss:.4f}, Accuracy: {epoch_acc:.4f}")
 
+
+
+
+save_model('trained_model.pkl', layers)
+print("Model saved to 'trained_model.pkl'")
+'''
 
 
 
