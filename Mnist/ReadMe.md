@@ -1,11 +1,11 @@
 # Neural Network from Scratch (Python + NumPy)
 
-Build + train a feedforward **neural network from first principles**—no TensorFlow/PyTorch abstractions.
+Build + train a feedforward **neural network from first principles** — no TensorFlow/PyTorch abstractions.  
 I implemented forward propagation, backpropagation, and gradient descent manually to deeply understand the math and mechanics.
 
-> 🎯 **Why this repo?** It demonstrates low-level mastery of neural nets (derivatives, chain rule, vectorization) and clean engineering (modular code, plots, reproducibility).
+> 🎯 **Why this repo?**  
+> It demonstrates low-level mastery of neural nets (derivatives, chain rule, vectorization) and clean engineering (modular code, plots, reproducibility).
 
----
 
 ## ✨ Features
 - Pure **Python + NumPy** implementation (no high-level DL frameworks)
@@ -14,13 +14,22 @@ I implemented forward propagation, backpropagation, and gradient descent manuall
 - Loss/accuracy tracking and **training curves**
 - Clean project layout for quick reading
 
----
 
 ## 🔎 Project Structure
 
+project/
+│── README.md<br>
+│── requirements.txt<br>
+│── .gitignore<br>
+│── data/ # (optional: sample or download notes)<br>
+│── notebooks/ # (optional: exploration/training logs)<br>
+│── src/<br>
+│ ├── model.py # NeuralNetwork class (init, forward, backward, update)<br>
+│ ├── train.py # Training loop, evaluation, CLI args<br>
+│ ├── utils.py # Metrics, plotting, data loaders, seeds<br>
+│── results/<br>
+│ ├── demo.mp4 # Demo video of predictions<br>
 
-
----
 
 ## 🚀 Quick Start
 
@@ -28,7 +37,6 @@ I implemented forward propagation, backpropagation, and gradient descent manuall
 pip install -r requirements.txt
 python src/train.py
 ```
-
 
 ## 📊 Results
 
@@ -47,8 +55,10 @@ Epoch 10 — Loss: 0.0320, Accuracy: 0.9922
 ```
 
 
-## Demo
 
-[▶️ Watch the demo video](Results/demo.mp4)
+## 🎥 Demo
+
+[▶️ Watch the demo video](results/demo.mp4)
+
 
 
