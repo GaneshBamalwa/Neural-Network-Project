@@ -20,6 +20,8 @@ I implemented forward propagation, backpropagation, and gradient descent manuall
 project/
 │── README.md<br>
 │── resources.md<br>
+│── journey.md<br>
+│── resources.md<br>
 │── src/<br>
 │ ├── model.py # NeuralNetwork class (init, forward, backward, update)<br>
 │ ├── train.py # Training loop, evaluation, CLI args<br>
