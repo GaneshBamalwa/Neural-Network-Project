@@ -24,7 +24,7 @@ I implemented forward propagation, backpropagation, and gradient descent manuall
 
 ## 🔎 Project Structure
 
-project/
+project/<br>
 │── README.md<br>
 │── resources.md<br>
 │── journey.md<br>
