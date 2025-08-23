@@ -1,4 +1,11 @@
-# Neural Network from Scratch (Python + NumPy)
+# 🧠 Neural Network from Scratch
+
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+![Python](https://img.shields.io/badge/python-3.9%2B-blue)
+![Contributions](https://img.shields.io/badge/contributions-welcome-brightgreen)
+
+A simple yet powerful **Neural Network built from scratch** in Python without any ML libraries.  
+Trained on MNIST, demonstrates forward propagation, backpropagation, and weight updates with raw math only.  
 
 Build + train a feedforward **neural network from first principles** — no TensorFlow/PyTorch abstractions.  
 I implemented forward propagation, backpropagation, and gradient descent manually to deeply understand the math and mechanics.
