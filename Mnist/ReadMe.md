@@ -27,3 +27,11 @@ I implemented forward propagation, backpropagation, and gradient descent manuall
 ```bash
 pip install -r requirements.txt
 python src/train.py
+
+
+
+
+## Demo
+
+[▶️ Watch the demo video](Results/demo.mp4)
+
