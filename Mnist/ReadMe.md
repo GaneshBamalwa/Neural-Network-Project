@@ -58,7 +58,8 @@ Epoch 10 — Loss: 0.0320, Accuracy: 0.9922
 
 ## 🎥 Demo
 
-[▶️ Watch the demo video](results/demo.mp4)
+[📥 Download the demo video (MKV)](Results/demo.mkv)
+
 
 
 
