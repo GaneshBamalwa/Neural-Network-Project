@@ -52,6 +52,13 @@ The CNN architecture follows a classic design:
 
 
 ## Results
+
+### Demo: 
+
+https://github.com/user-attachments/assets/83f4ffd1-e967-4482-93ff-b5742c3cc01b
+
+
+
 ### Training & Validation Loss
 <img width="700" height="547" alt="losss" src="https://github.com/user-attachments/assets/bb6ff42a-d86b-46f7-9414-11e69dd11281" /><br><br>
 ### Training & Validation Accuracy
