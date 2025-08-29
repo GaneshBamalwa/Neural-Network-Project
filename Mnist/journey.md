@@ -1,11 +1,11 @@
-# My Neural Network Journey 🚀
+# My Neural Network Journey
 
 This repository is not just code — it’s the story of how I built my first neural network **completely from scratch**.  
 I avoided high-level libraries like TensorFlow or PyTorch, relying only on **Python + NumPy**. Every equation, derivative, and matrix multiplication was implemented by hand.
 
 ---
 
-## 🛠️ The Steps I Took
+##  The Steps I Took
 
 ### 1. Understanding the Basics
 - Started with the **mathematical foundation**:
@@ -54,7 +54,7 @@ I avoided high-level libraries like TensorFlow or PyTorch, relying only on **Pyt
 
 ---
 
-### 6. Debugging Milestones 🔥
+### 6. Debugging Milestones 
 Some of the toughest bugs I hit:
 - **NaN losses** → traced to division by zero in Softmax. Fixed by adding an epsilon.  
 - **Gradients exploding** → solved by tweaking initialization.  
@@ -64,7 +64,7 @@ Every fix felt like a small win.
 
 ---
 
-### 7. First Success 🎉
+### 7. First Success 
 - After many attempts, I got the model to:
   - Learn properly.  
   - Reduce loss smoothly.  
@@ -73,21 +73,21 @@ Every fix felt like a small win.
 
 ---
 
-## 🚧 Current Limitations
+##  Current Limitations
 - Works fine for small digit classification tasks.  
 - But when I tried **7-digit recognition** (multiple digits in sequence), performance dropped heavily.  
 - A simple fully connected NN doesn’t capture spatial or sequential features well.  
 
 ---
 
-## 🔮 Next Step: Moving Towards CNNs
+##  Next Step: Moving Towards CNNs
 - To overcome these limits, I’m now exploring **Convolutional Neural Networks (CNNs)**.  
 - CNNs are designed to handle images better by capturing **local patterns** (edges, shapes, spatial hierarchies).  
 - My scratch NN gave me the intuition I need to understand CNNs at a deeper level.
 
 ---
 
-## 🙏 Learning Resources
+##  Learning Resources
 Big thanks to the tutorials that guided me:  
 - [Vizuara Neural Network Playlist](https://www.youtube.com/playlist?list=PLPTV0NXA_ZSj6tNyn_UadmUeU3Q3oR-hu)  
 - [Sentdex Deep Learning Series](https://www.youtube.com/playlist?list=PLQVvvaa0QuDcjD5BAw2DxE6OF2tius3V3)  
@@ -96,6 +96,6 @@ They helped me connect theory to implementation.
 
 ---
 
-✍️ This repo marks my **first real step into deep learning**.  
+This repo marks my **first real step into deep learning**.  
 I built something real, broke it multiple times, fixed it, and learned more than I expected.  
 The journey continues with CNNs 🚀
