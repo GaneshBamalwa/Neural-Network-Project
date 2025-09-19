@@ -67,10 +67,33 @@ StockPriceRNN/
 
 ## Visualizations
 
-- High vs Low price trends  
-- Feature correlation heatmap  
-- Training vs testing predictions  
-- Month-specific predictions (e.g., September)  
+## Opening vs Closing price trends
+
+<img width="1003" height="528" alt="opening_v_closing_price" src="https://github.com/user-attachments/assets/2e7d82e6-c641-4ff1-a282-5968640f98fa" />
+
+
+## Feature correlation heatmap
+
+<img width="979" height="528" alt="correlation_between_different_features" src="https://github.com/user-attachments/assets/0868fe5c-b98c-4940-b007-8924655373ce" />
+
+# Month-specific predictions (e.g., September)
+## 60 Days:
+<img width="1178" height="613" alt="60_days_prediction" src="https://github.com/user-attachments/assets/6255681d-a614-41c4-960d-71fce1b5a25a" />
+
+## 90 Days:
+
+<img width="1178" height="613" alt="90_days" src="https://github.com/user-attachments/assets/64448ff3-698d-4963-8fe8-0aa38ff6fc29" />
+
+## 120 Days:
+
+<img width="1178" height="613" alt="120_days" src="https://github.com/user-attachments/assets/d13163f4-1eda-425f-8ea4-905fd99d40d9" />
+
+
+## 180 Days:
+
+<img width="1178" height="613" alt="180_das" src="https://github.com/user-attachments/assets/f2ede948-fef0-4da2-b0c3-7b213f37322c" />
+
+
 
 ---
 
