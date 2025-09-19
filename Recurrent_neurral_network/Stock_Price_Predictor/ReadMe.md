@@ -76,7 +76,7 @@ StockPriceRNN/
 
 <img width="979" height="528" alt="correlation_between_different_features" src="https://github.com/user-attachments/assets/0868fe5c-b98c-4940-b007-8924655373ce" />
 
-# Month-specific predictions (e.g., September)
+# Month-specific predictions (e.g., September)[Lookback days specified]
 ## 60 Days:
 <img width="1178" height="613" alt="60_days_prediction" src="https://github.com/user-attachments/assets/6255681d-a614-41c4-960d-71fce1b5a25a" />
 
