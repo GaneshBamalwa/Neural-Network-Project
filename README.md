@@ -16,6 +16,11 @@
 - Achieves much higher accuracy on handwritten digit recognition compared to the MLP.
 - Showed me the power of CNNs in learning hierarchical representations and capturing spatial patterns.
 
+3. Recurrent Neural Network (RNN) [Brief overlook]
+- Structure: Input Sequence → Hidden State (recurrent connections) → Output (Softmax).
+- Implemented forward pass, backpropagation through time (BPTT), and gradient descent from scratch.
+- Helped me understand how sequential dependencies are modeled, how hidden states carry information across time steps, and the challenges like vanishing gradients that limit vanilla RNNs.
+
 ## What I’ve Learned So Far
 - How forward pass and backpropagation actually work.
 - Why CNNs outperform basic networks on image data.
