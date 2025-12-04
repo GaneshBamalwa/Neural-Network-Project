@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (you can choose to exclude large datasets)
+data/*.csv
+
+# Model files (if you want to avoid uploading large models accidentally)
+models/*.pkl
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment folders
+env/
+venv/
