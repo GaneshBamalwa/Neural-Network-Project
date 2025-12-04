@@ -1,4 +1,0 @@
-Age,Gender,Ethnicity,EducationLevel,BMI,Smoking,AlcoholConsumption,PhysicalActivity,DietQuality,SleepQuality,FamilyHistoryAlzheimers,CardiovascularDisease,Diabetes,Depression,HeadInjury,Hypertension,SystolicBP,DiastolicBP,CholesterolTotal,CholesterolLDL,CholesterolHDL,CholesterolTriglycerides
-72,0,0,2,23.5,0,5,6,7,8,0,0,0,0,0,1,130,80,200,120,50,150
-68,1,1,1,28.0,1,2,3,6,7,1,0,0,0,0,0,125,78,210,130,55,160
-75,0,0,3,26.5,0,1,4,5,6,0,1,0,1,0,1,140,85,230,140,60,180
