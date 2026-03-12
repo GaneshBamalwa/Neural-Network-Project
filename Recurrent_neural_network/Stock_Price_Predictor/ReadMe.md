@@ -1,4 +1,4 @@
-# Stock Price Prediction using LSTM 📈
+# Stock Price Prediction using LSTM 
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
@@ -6,7 +6,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project predicts the **closing price of the Bank Nifty index** using a **Long Short-Term Memory (LSTM) Recurrent Neural Network**.  
 The model captures sequential dependencies in time-series data and forecasts future prices based on historical data.  
@@ -19,7 +19,7 @@ The model captures sequential dependencies in time-series data and forecasts fut
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 The dataset used is **`bank_nifty.csv`**, which contains daily historical stock data.
 
@@ -32,12 +32,12 @@ The dataset used is **`bank_nifty.csv`**, which contains daily historical stock 
 | Close  | Closing price of the day |
 | Volume | Number of shares traded |
 
-> ⚠️ Place the CSV file in the project directory before running the notebook.  
+> Place the CSV file in the project directory before running the notebook.  
 
 
 ---
 
-## 🏗 Project Structure
+##  Project Structure
 StockPricePrediction/<br>
 │
 ├── model.py<br>
@@ -49,7 +49,7 @@ StockPricePrediction/<br>
 
 ---
 
-## 🔬 Model Architecture
+## Model Architecture
 
 1. **LSTM Layer 1** → Extracts sequential patterns.  
 2. **LSTM Layer 2** → Processes deeper temporal features.  
@@ -65,7 +65,7 @@ StockPricePrediction/<br>
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 
 ### Opening vs Closing Price Trends
 <img width="1003" height="528" alt="opening_v_closing_price" src="https://github.com/user-attachments/assets/2e7d82e6-c641-4ff1-a282-5968640f98fa" />
